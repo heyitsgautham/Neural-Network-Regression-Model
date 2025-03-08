@@ -44,9 +44,7 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-### Name:
-### Register Number:
-```python
+
 ### Name: GAUTHAM KRISHNA S
 ### Register Number: 212223240036
 ```python
