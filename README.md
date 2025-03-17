@@ -10,7 +10,8 @@ The objective is to build and train a neural network for regression using PyTorc
 
 ## Neural Network Model
 
-![image](https://github.com/user-attachments/assets/3f151a6f-df43-4ff8-9326-07f28c8382b7)
+![image](https://github.com/user-attachments/assets/6daabe3f-273d-428f-bc35-44b3e9b24732)
+
 
 
 ## DESIGN STEPS
