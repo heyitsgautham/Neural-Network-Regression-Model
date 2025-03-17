@@ -52,8 +52,8 @@ class NeuralNet(nn.Module):
   def __init__(self):
         super().__init__()
         self.fc1=nn.Linear(1,10)
-        self.fc2=nn.Linear(10,12)
-        self.fc3=nn.Linear(12,1)
+        self.fc2=nn.Linear(10,14)
+        self.fc3=nn.Linear(14,1)
         self.relu=nn.ReLU()
         self.history = {'loss': []}
 
@@ -88,24 +88,22 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
             print(f'Epoch [{epoch}/{epochs}], Loss: {loss.item():.6f}')
 
 
-
-
 ```
 ## Dataset Information
 
-![image](https://github.com/user-attachments/assets/9cecfe9d-5d80-4a60-8b5d-499348fb82cb)
+![image](https://github.com/user-attachments/assets/d6fcbf74-0196-4eca-815b-d9562997dfee)
 
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-![image](https://github.com/user-attachments/assets/1562c261-804c-411b-a6e2-b51cb2e50933)
+![image](https://github.com/user-attachments/assets/bf2504bf-a30f-4d21-9172-635bb8237a70)
 
 
 ### New Sample Data Prediction
-
-![image](https://github.com/user-attachments/assets/e7a59b1c-0f0b-48eb-a9e6-d5644ff5dc89)
+![image](https://github.com/user-attachments/assets/9a74983f-5f6e-4128-809c-43fb7f759254)
 
 
 ## RESULT
+
 The neural network regression model was successfully trained and evaluated. The model demonstrated strong predictive performance on unseen data, with a low error rate.
